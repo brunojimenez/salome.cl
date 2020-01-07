@@ -1,150 +1,74 @@
-<html>
+<!doctype html>
+<html ng-app="app">
     <head>
-
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+        <style>
+            nav {
+                background-color: #563D7C;
+            }
+
+            footer {
+                background-color: #F7F7F7;
+            }
+        </style>
     </head>
     <body>
 
-        <!-- Image and text -->
-        <nav class="navbar navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-dark ">
             <a class="navbar-brand" href="#">
                 <img src="images/logo.png" width="100" height="30" class="d-inline-block align-top" alt="">
             </a>
-        </nav>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#!">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#!tests">Examenes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#!aboutme">Acerca de mi</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
 
         <div class="container">
-
-            <h1 class="my-4">Test Psicología Clínica</h1>
-
-            <div class="row my-2">
-
-                <div class="col-4">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Personalidad</h5>
-                            <p class="card-text">
-                                <ul>
-                                    <li>Test de desconfianza</li>
-                                    <li>Test de autoestima de Rosenberg</li>
-                                    <li>Luscher</li>
-                                    <li>MMPI-2</li>
-                                    <li>SCID-II</li>
-                                    <li>PDQ</li>
-                                    <li>16PF-5</li>
-                                </ul>
-                            </p>
-                        </div><!-- ./card-body -->
-                    </div><!-- ./card -->
-                </div><!-- ./col-4 -->
-                <div class="col-4">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Psicopatología</h5>
-                            <p class="card-text">
-                                <ul>
-                                    <li>RORSCHACH</li>
-                                    <li>TRO</li>
-                                    <li>DEPRESION BECK</li>
-                                    <li>STAI (ANSIEDAD)</li>
-                                    <li>DEPRESION GOLDBERG</li>
-                                    <li>TEST ANSIEDAD DE HAMILTON</li>
-                                    <li>TEST DE BURNOUT O ESTRÉS LABORAL</li>
-                                    <li>TEST DE PSICOPATÍA DE ROBERT HARE</li>
-                                    <li>TEST DE ESTRÉS</li>
-                                    <li>CAT</li>
-                                </ul>
-                            </p>
-                        </div>
-                    </div><!-- ./card -->
-                </div><!-- ./col-4 -->
-                <div class="col-4">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Aptitudes</h5>
-                            <p class="card-text">
-                                <ul>
-                                    <li>TEST DE LA FAMILIA</li>
-                                    <li>WONDERLIC</li>
-                                    <li>WESTERN</li>
-                                    <li>DOMINOS</li>
-                                    <li>DFH</li>
-                                    <li>PBLL</li>
-                                </ul>
-                            </p>
-                        </div>
-                    </div><!-- ./card -->
-                </div><!-- ./col-4 -->
-            </div>
-            <div class="row my-2">    
-                <div class="col-4">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Neuropsicológicos</h5>
-                            <p class="card-text">
-                                <ul>
-                                    <li>NEURIPSI</li>
-                                    <li>GOODENOUGH</li>
-                                    <li>BENDER BIP</li>
-                                    <li>BENDER KOPPITZ</li>
-                                    <li>FIGURA DE REY</li>
-                                </ul>
-                            </p>
-                        </div>
-                    </div><!-- ./card -->
-                </div><!-- ./col-4 -->
-                <div class="col-4">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Inteligencia</h5>
-                            <p class="card-text">
-                                <ul>
-                                    <li>Wisc</li>
-                                    <li>Wais</li>
-                                    <li>WISC IV (niños)</li>
-                                    <li>WPPSI (niños)</li>
-                                </ul>
-                            </p>
-                        </div>
-                    </div><!-- ./card -->
-                </div><!-- ./col-4 -->
-                <div class="col-4">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Interes/Vocación Profesional</h5>
-                            <p class="card-text">
-                                <ul>
-                                    <li>Test orientación vocacional</li>
-                                    <li>TEST DE LIDERAZGO LBDQ XII</li>
-                                    <li>TEST DE DISCIPLINA</li>
-                                    <li>TEST DE COOPERACIÓN</li>
-                                    <li>TEST DE ETICA</li>
-                                    <li>TEST DE ASERTIVIDAD Y EMPATIA</li>
-                                    <li></li>
-                                </ul>
-                            </p>
-                        </div>
-                    </div><!-- ./card -->
-                </div><!-- ./col-4 -->
-            </div>
-            <div class="row my-2">
-                <div class="col-4">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Desarrollo/Envejecimiento</h5>
-                            <p class="card-text">
-                                <ul>
-                                    <li>MOCA</li>
-                                    <li>ACE-R</li>
-                                </ul>
-                            </p>
-                        </div>
-                    </div><!-- ./card -->
-                </div><!-- ./col-4 -->
-            </div>
+            <div ng-view></div>
         </div>
+
+        <footer class="mt-5">
+            <div class="footer-copyright text-center py-3">© 2020 Copyright:
+                <a href="https://brunojimenez.github.io/"> Bruno Jiménez</a>
+            </div>
+        </footer>
+
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular-route.js"></script>
+
+        <script>
+            var app = angular.module("app", ["ngRoute"]);
+            app.config(function($routeProvider) {
+                $routeProvider
+                .when("/", {
+                    templateUrl : "pages/home.html"
+                })
+                .when("/tests", {
+                    templateUrl : "pages/tests.html"
+                })
+                .when("/aboutme", {
+                    templateUrl : "pages/aboutme.html"
+                });
+            });
+
+        </script>
+
     </body>
 </html>
