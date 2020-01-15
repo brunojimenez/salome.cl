@@ -1,0 +1,21 @@
+.navbar {
+    background-color: #563D7C;
+}
+
+.footer {
+    background-color: #F7F7F7;
+}
+
+.isDisabled {
+    color: currentColor;
+    cursor: not-allowed;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+.isDisabled:over {
+    color: currentColor;
+    cursor: not-allowed;
+    opacity: 0.5;
+    text-decoration: none;
+}
